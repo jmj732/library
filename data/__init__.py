@@ -36,8 +36,6 @@ def get_db():
         cur.execute(sql)
         cur.execute("PRAGMA foreign_keys = ON")
         con.commit()
-        sql = ("insert or ignore into borrowings(book_id, borrower) values(?,?)")
-        cur.execute(sql, ("2", "choi"))
         con.commit()
 
 get_db()
