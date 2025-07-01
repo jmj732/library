@@ -1,0 +1,10 @@
+pycache/
+**/pycache/
+
+.venv/
+venv/
+
+mydb.db
+
+.idea/
+.DS_Store
